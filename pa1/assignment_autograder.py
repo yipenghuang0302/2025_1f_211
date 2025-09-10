@@ -2,8 +2,8 @@
 
 import sys
 from quickselect import autograder as quickselect_autograder
-from editDistance import autograder as editDistance_autograder
 from balanced import autograder as balanced_autograder
+from editDistance import autograder as editDistance_autograder
 
 total = 0
 
