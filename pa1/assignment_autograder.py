@@ -2,8 +2,8 @@
 
 import sys
 from quickselect import autograder as quickselect_autograder
-from balanced import autograder as balanced_autograder
 from editDistance import autograder as editDistance_autograder
+from balanced import autograder as balanced_autograder
 
 total = 0
 
@@ -33,7 +33,7 @@ if len( sys.argv ) > 1:
 
         safe_extract(tarball, "tar_test")
 
-    total += greedyScheduling_autograder.grade_greedyScheduling ( path="tar_test/greedyScheduling/", verbose=True )
+    total += quickselect_autograder.grade_quickselect ( path="tar_test/quickselect/", verbose=True )
     total += editDistance_autograder.grade_editDistance ( path="tar_test/editDistance/", verbose=True )
     total += balanced_autograder.grade_balanced ( path="tar_test/balanced/", verbose=True )
 
@@ -41,8 +41,8 @@ if len( sys.argv ) > 1:
 
 else:
 
-    total += greedyScheduling_autograder.grade_greedyScheduling ( path="greedyScheduling/", verbose=True )
+    total += quickselect_autograder.grade_quickselect ( path="quickselect/", verbose=True )
     total += editDistance_autograder.grade_editDistance ( path="editDistance/", verbose=True )
     total += balanced_autograder.grade_balanced ( path="balanced/", verbose=True )
 
-print ("Score on assignment: {} out of 75.".format(total))
+print ("Score on assignment: {} out of 60.".format(total))
