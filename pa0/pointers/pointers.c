@@ -11,27 +11,24 @@ int global_variable = 0;
 int main() {
 
   printf ("\n\nLESSON 1: WHAT ARE POINTERS?\n");
-  unsigned int number = 500;
-  unsigned int* pointer = &number;
-  printf ("number          = %d\n", number);
+  unsigned long int number = 500;
+  unsigned long int* pointer = &number;
+  printf ("number          = %ld\n", number);
   printf ("pointer         = %p\n", pointer);
   printf ("sizeof(pointer) = %ld\n", sizeof(pointer));
   printf ("pointer         = %ld\n", (long int) pointer);
   
-  return EXIT_SUCCESS;
-
   printf ("\n\nLESSON 2: DEREFERENCING POINTERS WITH *\n");
-  unsigned int* second_pointer = &number;
+  unsigned long int* second_pointer = &number;
 
-  printf ("question *pointer   = %d\n", *pointer);
+  printf ("question *pointer   = %ld\n", *pointer);
 
   *second_pointer = 7000;
-  printf ("deref second_pointer = %d\n", *second_pointer);
+  printf ("deref second_pointer = %ld\n", *second_pointer);
 
-  printf ("*pointer   = %d\n", *pointer);
-  printf ("number   = %d\n", number);
+  printf ("*pointer   = %ld\n", *pointer);
+  printf ("number   = %ld\n", number);
 
-  return EXIT_SUCCESS;
 
 
   printf ("\n\nLESSON 3: THE INTEGER DATATYPE USES FOUR BYTES\n");
@@ -39,9 +36,7 @@ int main() {
   printf ("sizeof(pointer) = %ld\n", sizeof(pointer));
   printf ("pointer         = %ld\n", (long int) pointer);
   // notice how the + operator has an overloaded functionality for pointers
-  printf ("pointer+1       = %ld\n", (long int) (pointer+1));
-
-  return EXIT_SUCCESS;
+  printf ("pointer+2       = %ld\n", (long int) (pointer+2));
 
 
 
@@ -52,25 +47,27 @@ int main() {
   printf ("byte at %ld = %d\n", (long int) (char_pointer+2), *(char_pointer+2));
   printf ("byte at %ld = %d\n", (long int) (char_pointer+3), *(char_pointer+3));
 
-  return EXIT_SUCCESS;
+
 
 
   printf ("\n\nLESSON 5: POINTERS ARE JUST VARIABLES THAT LIVE IN MEMORY TOO\n");
-  unsigned int** pointer_to_pointer = &pointer;
+  unsigned long int** pointer_to_pointer = &pointer;
   printf ("  pointer_to_pointer = %ld\n", (long int) pointer_to_pointer);
   printf (" *pointer_to_pointer = %ld\n", (long int) *pointer_to_pointer);
-  printf ("**pointer_to_pointer = %d\n", **pointer_to_pointer);
+  printf ("**pointer_to_pointer = %ld\n", *(*(pointer_to_pointer)));
 
-  return EXIT_SUCCESS;
 
 
   printf ("\n\nLESSON 6: ARRAYS\n");
   int array_demo[] = {111,222,333};
   printf("%d\n", array_demo[1]);
-  printf("%p\n", array_demo);
+  printf("&array_demo %p\n", &array_demo);
+  printf("array_demo %p\n", array_demo);
+  printf("sizeof(array_demo) %ld\n", sizeof(array_demo));
   printf("%p\n", array_demo+1);
   printf("%d\n", *(array_demo+1));
   printf("%d\n", *array_demo+1);
+
 
   int array_size = 3;
 
@@ -91,15 +88,24 @@ int main() {
     printf("*(array+%d) = %d\n", i, *(array+i));
   }
 
-  return EXIT_SUCCESS;
-
 
   printf ("\n\nLESSON 6.1: 2D ARRAYS\n");
 
   int array_demo_2d[2][3] = {{1,2,3},{4,5,6}};
+
+  printf("&array_demo_2d=%p\n",&array_demo_2d);
+  printf("sizeof(&array_demo_2d)=%ld\n",sizeof(&array_demo_2d));
+
   printf("array_demo_2d=%p\n",array_demo_2d);
+  printf("sizeof(array_demo_2d)=%ld\n",sizeof(array_demo_2d));
 
   printf("*array_demo_2d=%p\n",*array_demo_2d);
+  printf("sizeof(*array_demo_2d)=%ld\n",sizeof(*array_demo_2d));
+
+  printf("sizeof(*array_demo_2d)=%ld\n",sizeof(*array_demo_2d));
+  printf("sizeof(array_demo_2d[0])=%ld\n",sizeof(array_demo_2d[0]));
+  printf("**array_demo_2d=%d\n",**array_demo_2d);
+
   printf("array_demo_2d[0]=%p\n",array_demo_2d[0]);
 
   printf("*(array_demo_2d+1)=%p\n",*(array_demo_2d+1));
@@ -107,10 +113,6 @@ int main() {
 
   printf("**array_demo_2d=%d\n",**array_demo_2d);
   printf("array_demo_2d[0][0]=%d\n",array_demo_2d[0][0]);
-
-
-
-
 
   array_size = 3;
   int** array_2d = calloc( array_size, sizeof(int*) );
@@ -121,7 +123,6 @@ int main() {
     printf("array_2d[%d]=%p\n", i, array_2d[i]);
   }
 
-
   for (int i=0; i<array_size; i++) { // iterate over rows
     for (int j=0; j<array_size; j++) { // iterate over columns
 
@@ -131,8 +132,6 @@ int main() {
       // printf("%d ",  (*(array_2d+i))[j] ); // valid pointer arithmetic on the rows followed by array access
       int i = 1;
       int j = 1;
-
-
 
       printf("%d ",  *(*(array_2d+i)+j) ); // valid pointer arithmetic on both rows and columns followed by dereferencing
     }
@@ -158,8 +157,6 @@ int main() {
   printf ("after swap_pass_by_values:    b = %d\n", b);
 
 
-
-
   printf ("\n\nLESSON 8: PASSING-BY-REFERENCE\n");
   printf ("before swap_pass_by_references:   a = %d\n", a);
   printf ("before swap_pass_by_references:   b = %d\n", b);
@@ -168,7 +165,6 @@ int main() {
   swap_pass_by_references ( &a, &b );
   printf ("after swap_pass_by_references:    a = %d\n", a);
   printf ("after swap_pass_by_references:    b = %d\n", b);
-
 
 
   printf ("\n\nLESSON 9: PASSING AN ARRAY LEADS TO PASSING-BY-REFERENCE\n");
@@ -185,13 +181,15 @@ int main() {
     printf("array[%d]    = %d\n", i, array[i]);
   }
 
+  free(array);
+  return EXIT_SUCCESS;
+
   printf ("\n\nLESSON 10: C MEMORY MODEL; STACK AND HEAP; RECURSION EXAMPLE\n");
   printf ("global_variable = %d\n", global_variable);
   printf ("Address of global_variable = %p\n", &global_variable);
   int n = 0;
   printf ("%d! = %d\n", n, factorial(n));
 
-  free(array);
   return 0;
 }
 
