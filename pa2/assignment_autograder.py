@@ -47,11 +47,11 @@ if len( sys.argv ) > 1:
 
 else:
 
-    total += hashTable_autograder.grade_hashTable ( path="tar_test/hashTable/", verbose=True )
-    total += edgelist_autograder.grade_edgelist ( path="tar_test/edgelist/", verbose=True )
-    total += isTree_autograder.grade_isTree ( path="tar_test/isTree/", verbose=True )
-    total += mst_autograder.grade_mst ( path="tar_test/mst/", verbose=True )
-    total += findCycle_autograder.grade_findCycle ( path="tar_test/findCycle/", verbose=True )
-    total += matChainMul_autograder.grade_matChainMul ( path="tar_test/matChainMul/", verbose=True )
+    total += hashTable_autograder.grade_hashTable ( path="hashTable/", verbose=True )
+    total += edgelist_autograder.grade_edgelist ( path="edgelist/", verbose=True )
+    total += isTree_autograder.grade_isTree ( path="isTree/", verbose=True )
+    total += mst_autograder.grade_mst ( path="mst/", verbose=True )
+    total += findCycle_autograder.grade_findCycle ( path="findCycle/", verbose=True )
+    total += matChainMul_autograder.grade_matChainMul ( path="matChainMul/", verbose=True )
 
 print ("Score on assignment: {} out of 150.".format(total))
