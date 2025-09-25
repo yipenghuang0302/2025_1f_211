@@ -1,0 +1,56 @@
+Not enough stock of OIL OF EVERY PEARL'S UN-INSIDES
+Current stock of 1000 gecs: 35
+Not enough stock of Portishead
+Not enough stock of Grace
+Not enough stock of In Utero
+Resizing the table from 16 to 32
+Current stock of In Utero: 12
+Current stock of Portishead: 24
+Not enough stock of Grace
+Not enough stock of Portishead
+Current stock of Grace: 3
+Current stock of Portishead: 24
+Not enough stock of Fossora
+Resizing the table from 32 to 64
+Not enough stock of 1000 gecs
+Current stock of Dummy: 39
+Not enough stock of MAGDALENE
+Current stock of Grace: 3
+Not enough stock of Future Nostalgia
+Current stock of 1000 gecs: 22
+Current stock of 1000 gecs: 22
+Current stock of Nevermind: 2
+Not enough stock of Stratosphere
+Current stock of 10,000 gecs: 45
+Current stock of Portishead: 119
+Not enough stock of 1000 gecs
+Not enough stock of Stratosphere
+Current stock of Stratosphere: 7
+Not enough stock of Stratosphere
+Not enough stock of 6 Feet Beneath The Moon
+Not enough stock of Icedancer
+Not enough stock of Nevermind
+Current stock of Chromatica: 148
+Current stock of MAGDALENE: 111
+Not enough stock of 1000 gecs
+-------- FINAL COUNTS --------
+1000 gecs: 1
+OIL OF EVERY PEARL'S UN-INSIDES: 97
+Chromatica: 148
+Portishead: 119
+Grace: 10
+Nevermind: 55
+In Utero: 127
+Icedancer: 38
+Future Nostalgia: 41
+Fossora: 95
+Post: 67
+Vespertine: 13
+how i'm feeling now: 0
+Stratosphere: 7
+6 Feet Beneath The Moon: 96
+Charli: 68
+MAGDALENE: 111
+Dummy: 39
+10,000 gecs: 77
+------------------------------

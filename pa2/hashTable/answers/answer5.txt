@@ -1,0 +1,30 @@
+Not enough stock of Portishead
+Current stock of Portishead: 7
+Resizing the table from 8 to 16
+Not enough stock of The OOZ
+Current stock of 10,000 gecs: 56
+Not enough stock of The OOZ
+Current stock of 10,000 gecs: 42
+Current stock of The OOZ: 14
+Resizing the table from 16 to 32
+Not enough stock of Post
+Not enough stock of Fossora
+Not enough stock of Utopia
+Not enough stock of 10,000 gecs
+Not enough stock of Debut
+Not enough stock of Debut
+-------- FINAL COUNTS --------
+Portishead: 102
+The OOZ: 107
+10,000 gecs: 42
+Random Access Memories: 14
+Fossora: 15
+Debut: 36
+Vulnicura: 49
+Post: 47
+Utopia: 21
+In Utero: 60
+Future Nostalgia: 46
+6 Feet Beneath The Moon: 90
+Chromatica: 5
+------------------------------

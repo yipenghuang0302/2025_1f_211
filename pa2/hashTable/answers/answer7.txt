@@ -1,0 +1,103 @@
+Not enough stock of Grace
+Current stock of Grace: 25
+Not enough stock of OIL OF EVERY PEARL'S UN-INSIDES
+Not enough stock of OIL OF EVERY PEARL'S UN-INSIDES
+Not enough stock of OIL OF EVERY PEARL'S UN-INSIDES
+Not enough stock of 6 Feet Beneath The Moon
+Not enough stock of Grace
+Not enough stock of KiCk i
+Not enough stock of OIL OF EVERY PEARL'S UN-INSIDES
+Not enough stock of OIL OF EVERY PEARL'S UN-INSIDES
+Not enough stock of Vespertine
+Current stock of 10,000 gecs: 42
+Current stock of OIL OF EVERY PEARL'S UN-INSIDES: 16
+Current stock of Vespertine: 1
+Not enough stock of Vespertine
+Current stock of KiCk i: 49
+Not enough stock of Utopia
+Not enough stock of Random Access Memories
+Current stock of Vespertine: 1
+Current stock of Stratosphere: 9
+Not enough stock of Stratosphere
+Not enough stock of Random Access Memories
+Current stock of Grace: 22
+Not enough stock of Random Access Memories
+Resizing the table from 32 to 64
+Not enough stock of Grace
+Current stock of Grace: 22
+Not enough stock of Vespertine
+Not enough stock of MAGDALENE
+Not enough stock of KiCk i
+Not enough stock of 10,000 gecs
+Not enough stock of Stratosphere
+Not enough stock of Grace
+Not enough stock of 10,000 gecs
+Current stock of Dummy: 34
+Not enough stock of Charli
+Current stock of Random Access Memories: 51
+Not enough stock of Charli
+Not enough stock of KiCk ii
+Current stock of Random Access Memories: 51
+Current stock of Utopia: 0
+Not enough stock of Wlfgrl
+Current stock of Utopia: 0
+Not enough stock of EXETER
+Not enough stock of KiCk iiii
+Not enough stock of KiCk i
+Not enough stock of Stratosphere
+Current stock of Back to Black: 82
+Current stock of Charli: 75
+Not enough stock of Grace
+Not enough stock of KiCk ii
+Not enough stock of Stratosphere
+Not enough stock of Grace
+Not enough stock of KiCk i
+Not enough stock of Heaven or Las Vegas
+Not enough stock of Fossora
+Not enough stock of Utopia
+Current stock of Charli: 33
+Current stock of Back to Black: 102
+Current stock of KiCk ii: 18
+Current stock of In Utero: 48
+Not enough stock of Utopia
+Current stock of 10,000 gecs: 167
+Not enough stock of 6 Feet Beneath The Moon
+Current stock of Heaven or Las Vegas: 21
+Not enough stock of In Utero
+Not enough stock of Utopia
+Current stock of Bleach: 22
+Not enough stock of Utopia
+Not enough stock of Icedancer
+Not enough stock of Icedancer
+Current stock of KiCk iiii: 17
+Current stock of KiCk i: 56
+Not enough stock of SAWAYAMA
+Current stock of KiCk ii: 78
+Current stock of KiCk ii: 78
+-------- FINAL COUNTS --------
+Grace: 7
+OIL OF EVERY PEARL'S UN-INSIDES: 70
+KiCk i: 56
+Stratosphere: 45
+6 Feet Beneath The Moon: 36
+10,000 gecs: 249
+Random Access Memories: 65
+Vespertine: 122
+Utopia: 16
+Fossora: 54
+Dummy: 20
+Bleach: 22
+Mezzanine: 66
+SAWAYAMA: 33
+Back to Black: 129
+MAGDALENE: 167
+Charli: 61
+KiCk ii: 78
+Heaven or Las Vegas: 21
+Wlfgrl: 39
+EXETER: 122
+KiCk iiii: 53
+Icedancer: 0
+Voulez-Vous: 83
+In Utero: 5
+------------------------------
