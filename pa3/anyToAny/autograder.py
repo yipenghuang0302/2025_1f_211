@@ -132,6 +132,6 @@ def grade_anyToAny( path="./", verbose=False ):
     return score
 
 if __name__ == '__main__':
-    generate_test_suite()
+#     generate_test_suite()
     grade_anyToAny(verbose=True)
     exit()

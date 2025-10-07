@@ -152,7 +152,7 @@ def grade_fermiDirac( path="./", verbose=False ):
                                 if test_fermiDirac(7,path,verbose):
                                     score += 1
                                     allPass = True
-                                    for filenum in range(8,15):
+                                    for filenum in range(8,25):
                                         generate_test (
                                             filenum,
                                             max_factors=61,
@@ -164,10 +164,10 @@ def grade_fermiDirac( path="./", verbose=False ):
                                         else:
                                             break
 
-    print ("Score on fermiDirac: {} out of 15.".format(score))
+    print ("Score on fermiDirac: {} out of 25.".format(score))
     return score
 
 if __name__ == '__main__':
-    generate_test_suite()
+#     generate_test_suite()
     grade_fermiDirac(verbose=True)
     exit()
