@@ -58,7 +58,7 @@ def test_floatMul ( filenum, path="./", verbose=False ):
             print ("result")
             print (result.stdout)
             print ("\n")
-        assert answer.replace('_','') == result.stdout.replace('_',''), "The printed result doesn't match answers/answer{}.txt. You can add underscores as needed for readability".format(filenum)
+        assert answer.replace('_','') == result.stdout.strip().replace('_',''), "The printed result doesn't match answers/answer{}.txt. You can add underscores as needed for readability".format(filenum)
         return True
     except subprocess.CalledProcessError as e:
         print (e.stdout)
