@@ -1,0 +1,1 @@
+hits:4172 misses:2028 evictions:2012
