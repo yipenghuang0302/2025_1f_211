@@ -4,8 +4,8 @@
 #include <time.h>
 #include <assert.h>
 
-#define M 32
-#define N 32
+#define M 1024
+#define N 1024
 
 /* Markers used to bound trace regions of interest */
 volatile char MARKER_START, MARKER_END;
@@ -67,6 +67,7 @@ int main(int argc, char* argv[])
         for ( int j=0; j<N; j++ )
             a[i][j] = rand() % 256;
 
+
     // TIME sumArrayRows
     start = clock();
     int sumArrayRowsResult = sumArrayRows(a);
@@ -81,6 +82,7 @@ int main(int argc, char* argv[])
     end = clock();
     cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
     printf("sumArrayCols took %lf seconds.\n", cpu_time_used);
+
 
 
     assert ( sumArrayRowsResult == sumArrayColsResult );

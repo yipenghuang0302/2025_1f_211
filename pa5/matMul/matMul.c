@@ -71,15 +71,15 @@ int main(int argc, char* argv[])
     complex* c = calloc( n*n, sizeof(complex) );
     MARKER_START = 211;
 
-    // kij
-    for ( size_t k=0; k<n; k++ ) {
-        for ( size_t i=0; i<n; i++ ) {
-            complex r = a[i*n+k];
-            for ( size_t j=0; j<n; j++ ) {
-                c[i*n+j] += r * b[k*n+j];
-            }
-        }
-    }
+//     kij
+//     for ( size_t k=0; k<n; k++ ) {
+//         for ( size_t i=0; i<n; i++ ) {
+//             complex r = a[i*n+k];
+//             for ( size_t j=0; j<n; j++ ) {
+//                 c[i*n+j] += r * b[k*n+j];
+//             }
+//         }
+//     }
 
 //     ijk
 //     for ( size_t i=0; i<n; i++ ) {
@@ -93,14 +93,14 @@ int main(int argc, char* argv[])
 //     }
 
 //     jki
-//     for ( size_t j=0; j<n; j++ ) {
-//         for ( size_t k=0; k<n; k++ ) {
-//             complex r = b[k*n+j];
-//             for ( size_t i=0; i<n; i++ ) {
-//                 c[i*n+j] += a[i*n+k] * r;
-//             }
-//         }
-//     }
+    for ( size_t j=0; j<n; j++ ) {
+        for ( size_t k=0; k<n; k++ ) {
+            complex r = b[k*n+j];
+            for ( size_t i=0; i<n; i++ ) {
+                c[i*n+j] += a[i*n+k] * r;
+            }
+        }
+    }
     MARKER_END = 211;
 
     for ( size_t i=0; i<n; i++ ) {
