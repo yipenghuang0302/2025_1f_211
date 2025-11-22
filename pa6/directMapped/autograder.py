@@ -163,6 +163,6 @@ def grade_directMapped( path="./", verbose=False ):
     return score
 
 if __name__ == '__main__':
-#     generate_test_suite()
+    # generate_test_suite()
     grade_directMapped(verbose=True)
     exit()
